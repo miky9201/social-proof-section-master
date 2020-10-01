@@ -1,0 +1,181 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    padding: 90px 110px 0 110px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#intro {
+    /*background-color: darkseagreen;*/
+    width: 40%;
+    padding-right: 80px;
+    color: hsl(300, 43%, 22%);
+    
+}
+
+#intro h1{
+    line-height: 0.98em;
+    margin-bottom: 0em;
+    font-size: 2.9em;
+    letter-spacing: -1px;
+}
+
+#intro p{
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    font-size: 0.90em;
+}
+
+#rates {
+    /*background-color: deepskyblue;*/
+    width: 55%;
+    height: 200px;
+}
+
+#reviews {
+    margin-right: 80px;
+}
+
+#guru {
+    margin-right: 40px;
+}
+
+#tech {
+    margin-right: 0px;
+}
+
+#first-row {
+    margin-bottom: 50px;
+}
+
+#testimonies {
+    margin-bottom: 50px;
+}
+
+#testimonies img {
+    margin-right: 25px;
+}
+
+#testimonies p {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 0.85em;
+}
+
+#testimonies strong {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+#colton {
+    margin-top: 0px;
+}
+
+#irene {
+    margin-top: 20px;
+}
+
+#anne {
+    margin-top: 40px;
+}
+
+.profile {
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px;
+    border-radius: 10px;
+    width: 260px;
+    max-height: 200px;
+}
+
+.note {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    padding: 15px 0 15px 25px;
+    width: 75%;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.flex-row-center-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row-left-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-row-space-between-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flex-col-center-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex-col-space-around-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.flex-col-center-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+.inline {
+    display: inline;
+}
+
+.white {
+    color: hsl(0, 0%, 100%) !important;
+    font-size: 0.75em !important;
+    letter-spacing: 0.2px;
+}
+
+.round {
+    width:40px;
+    clip-path: ellipse(50% 50%);
+}
+
+.attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+.attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
